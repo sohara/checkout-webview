@@ -12,7 +12,7 @@ class ViewController: UIViewController, WKUIDelegate {
 
     var webView: WKWebView!
     
-    var url = URL(string: "https://merchant.platform-qa.breadgateway.com/host")
+    var url = URL(string: "https://connect-preview.breadpayments.com/host")
     
     override func viewDidLoad() {
         super.viewDidLoad()
